@@ -376,7 +376,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             const buyNowButtons = document.querySelectorAll('.buy-now');
             const whatsappConfirmBtn = document.getElementById('whatsapp-confirm-btn');
-            const adminWhatsappNumber = '6283186560235'; 
+            const adminWhatsappNumber = '6289526085106'; 
 
             // Default WhatsApp message template
             const defaultMessage = `Halo admin, saya sudah melakukan pembayaran.\n\nNama Akun: [TULIS NAMA AKUN DI SINI]\n\nBerikut saya lampirkan FOTO bukti transfernya.`;
@@ -386,7 +386,7 @@
             buyNowButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     const productName = button.getAttribute('data-product');
-                    const message = `Halo admin, saya sudah melakukan pembayaran untuk *${productName}*.\n\nNama Akun: [TULIS NAMA AKUN DI SINI]\n\nBerikut saya lampirkan FOTO bukti transfernya.`;
+                    const message = `rahman keren baget  *${productName}*.\n\nNama Akun: [TULIS NAMA AKUN DI SINI]\n\nBerikut saya lampirkan FOTO bukti transfernya.`;
                     whatsappConfirmBtn.href = `https://wa.me/${adminWhatsappNumber}?text=${encodeURIComponent(message)}`;
                 });
             });
